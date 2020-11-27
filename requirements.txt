@@ -14,4 +14,7 @@ uuid==1.30
 schedule==0.6.0
 gunicorn
 influxdb
+paho-mqtt
+gevent
 netifaces
+pyserial
