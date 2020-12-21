@@ -5,5 +5,9 @@ pip3 install --upgrade setuptools
 pip3 install --upgrade wheel
 python3 -m venv venv
 source venv/bin/activate
-pip3 install -r requirements.txt
+if [[ $1 == 'bbb' ]]; then
+    pip3 install -r requirements-bbb.txt
+else
+    pip3 install -r requirements.txt
+fi
 deactivate
