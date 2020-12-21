@@ -12,4 +12,5 @@ This single environment creation is done for:
 
 ```bash
 bash script.bash
+bash script.bash bbb
 ```
