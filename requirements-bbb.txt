@@ -15,3 +15,4 @@ gevent==20.9.0
 netifaces==0.10.9
 pyserial==3.5
 six==1.15.0
+Adafruit-BBIO==1.0.10
