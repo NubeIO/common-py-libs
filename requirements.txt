@@ -19,3 +19,4 @@ netifaces==0.10.9
 pyserial==3.5
 six==1.15.0
 pandas==1.1.4
+packaging==20.8
