@@ -129,7 +129,10 @@ dmypy.json
 .pyre/
 .idea/
 
+*.iml
+
 rubix-bacnet-server/
 rubix-point-server/
 rubix-service/
+rubix-lora/
 lora-raw/
