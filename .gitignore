@@ -127,4 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-.idea
+.idea/
+
+*.iml
+
+rubix-bacnet-server/
+rubix-point-server/
+rubix-service/
+rubix-lora/
+lora-raw/
