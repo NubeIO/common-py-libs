@@ -60,7 +60,7 @@ The output is: `dist/<project_name>`. Project name should be in `pyproject.toml`
 
 - Right click in each `run.py`
 
-  ![Step 1](./.github/idea_1.png "Step 1")
+  ![Step 1](./.github/idea_1.jpg "Step 1")
 
 - Modify `name`, `parameter`, `Environment variables` in popup
   - `Parameters`: `-s config.json --workers 2` (other parameters will be depended on each specific project)
