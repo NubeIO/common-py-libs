@@ -54,9 +54,33 @@
 
 The output is: `dist/<project_name>`. Project name should be in `pyproject.toml`
 
+### Integrate with IDE
+
+#### `PyCharm` or `Intellij Ultimate`
+
+- Right click in each `run.py`
+
+  ![Step 1](./.github/idea_1.png "Step 1")
+
+- Modify `name`, `parameter`, `Environment variables` in popup
+  - `Parameters`: `-s config.json --workers 2` (other parameters will be depended on each specific project)
+  - `Environment variables`: `GEVENT_SUPPORT=True`
+
+  ![Step 2](./.github/idea_2.png "Step 2")
+
+- In project directory, make a copy `./config/config.example.json` to `./out/config.json`
+
+- Then `run` or `debug` as image
+
+  ![Step 3](./.github/idea_3.png "Step 3")
+
+  ![Step 3](./.github/idea_4.png "Step 3")
+
+
 ## Development note
 
 ### Python module:
+
 
 - Expose only needed `function`, `class` for another file in `module` level.
 - For using in `module` level, use `intra-package references`.
